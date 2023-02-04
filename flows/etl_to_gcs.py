@@ -48,7 +48,7 @@ def etl_to_gcs():
     upload_csv_to_gcs(file_path)
     print(file_path)
     print(df.shape)
-
+    print('hello from githun repo')
 
 if __name__ == "__main__":
     etl_to_gcs()
